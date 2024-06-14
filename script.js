@@ -12,23 +12,3 @@ function updateClock() {
   const currentTime = `${hours}:${minutes}:${seconds}`;
   clockElement.textContent = currentTime;
 
-  const uptime = Math.floor((Date.now() - startTime) / 1000);  // Uptime in seconds
-  const uptimeText = formatUptime(uptime);
-  uptimeElement.textContent = `Uptime: ${uptimeText}`;
-
-  requestAnimationFrame(updateClock);
-}
-
-function formatUptime(seconds) {
-  const hours = Math.floor(seconds / 3600);
-  const minutes = Math.floor((seconds % 3600) / 60);
-  const remainingSeconds = seconds % 60;
-
-  const formattedHours = hours > 0 ? `${hours} hours ` : "";
-  const formattedMinutes = minutes > 0 ? `${minutes} minutes ` : "";
-  const formattedSeconds = `${remainingSeconds} seconds`;
-
-  return formattedHours + formattedMinutes + formattedSeconds;
-}
-
-updateClock();  // Call the updateClock function initially
