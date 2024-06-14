@@ -1,8 +1,8 @@
 const sentences = [
-  "The quick brown fox jumps over the lazy dog.",
-  "JavaScript is a powerful scripting language for web development.",
-  "Building websites can be both fun and challenging.",
-  "Let's keep learning and creating!",
+  "What even is a website?",
+  "Made with JavaScript.",
+  "You know I can see you, right?.",
+  "My favorite game is Halo Reach!",
 ];
 
 const randomIndex = Math.floor(Math.random() * sentences.length);
