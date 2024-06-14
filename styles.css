@@ -13,7 +13,7 @@ h3 {
 }
 div {
   color: white;                   /* Change heading color */
-  text-align: right;
+  text-align: center;
 }
 p {
   line-height: 1.5;                /* Adjust line spacing */
