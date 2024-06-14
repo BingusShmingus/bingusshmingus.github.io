@@ -7,6 +7,8 @@ const sentences = [
   "You know I can see you, right?.",
   "My favorite game is Halo Reach!",
   "Goose is a huge dork,",
+  "Check out my HUGE rack.",
+  "Frank the Snake.",
 ];
 
 const randomIndex = Math.floor(Math.random() * sentences.length);
