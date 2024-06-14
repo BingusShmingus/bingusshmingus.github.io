@@ -1,5 +1,16 @@
-body{
-    margin: 0;
-    background: pink;
-    text-align: center;
+body {
+  font-family: Arial, sans-serif;  /* Set the font family */
+  margin: 20px;                  /* Add margin around the body */
+}
+
+h1 {
+  color: blue;                   /* Change heading color */
+}
+
+p {
+  line-height: 1.5;                /* Adjust line spacing */
+}
+
+img {
+  border-radius: 5px;             /* Add rounded corners to images */
 }
