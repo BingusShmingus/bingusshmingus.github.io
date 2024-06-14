@@ -8,8 +8,12 @@ body {
 h1 {
   color: white;                   /* Change heading color */
 }
-
-
+h3 {
+  color: white;                   /* Change heading color */
+}
+div {
+  color: white;                   /* Change heading color */
+}
 p {
   line-height: 1.5;                /* Adjust line spacing */
   color: white;
