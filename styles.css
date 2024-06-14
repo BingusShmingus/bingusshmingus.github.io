@@ -20,6 +20,13 @@ h1 {
   font-size: 2em;
   margin: 0;
 }
+.top-bar {
+  background-color: #F0F0F0;  /* Change this to your desired color */
+  height: 30px;                /* Adjust the height of the bar */
+  width: 100%;                /* Make the bar span the full width */
+  margin-top: 10px;            /* Add space between the h1 and the bar */
+}
+
 .profile-image {
   float: right;
   width: 100px;
