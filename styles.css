@@ -24,7 +24,7 @@ img {
   border-radius: 5px;             /* Add rounded corners to images */
 }
 .image-container {
-  background-image: url("https://drive.google.com/file/d/18fB_O_d3LSK9kHuSOOYbfy4WWAG1z2Wm/view?usp=sharing");  /* Replace with your image path */
+  background-image: url("*/IMG_0859.jpg");  /* Replace with your image path */
   background-size: cover;  /* Ensure image fills the container */
   height: 400px;  /* Adjust height as needed */
   width: 600px;  /* Adjust width as needed */
