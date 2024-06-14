@@ -23,20 +23,3 @@ p {
 img {
   border-radius: 5px;             /* Add rounded corners to images */
 }
-.image-container {
-  background-image: url("*/IMG_0859.jpg");  /* Replace with your image path */
-  background-size: cover;  /* Ensure image fills the container */
-  height: 400px;  /* Adjust height as needed */
-  width: 600px;  /* Adjust width as needed */
-  position: relative;  /* Needed for pseudo-element layering */
-}
-
-.image-container::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);  /* Adjust opacity for desired tint strength */
-}
