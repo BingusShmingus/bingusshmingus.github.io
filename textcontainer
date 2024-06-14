@@ -1,0 +1,6 @@
+.rounded-text-container {
+  background-color: #fff;  /* Background color of the rectangle */
+  padding: 20px;  /* Padding around the text */
+  border-radius: 10px;  /* Adjust corner roundness as desired */
+  display: inline-block;  /* Ensures inline behavior for text wrapping */
+}
