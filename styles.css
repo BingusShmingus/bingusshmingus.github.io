@@ -49,3 +49,6 @@ a:hover {
   text-decoration: underline;
   color: #ccc;  /* Light gray for link hover */
 }
+body {
+  background-color: grey;
+}
